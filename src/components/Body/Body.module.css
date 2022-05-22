@@ -1,0 +1,33 @@
+.body {
+    grid-area: 2/1/3/4;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 25px;
+}
+
+.expenses {
+    grid-area: 1/1/2/2;
+    background-color: darkviolet;
+
+}
+
+.salary {
+    grid-area: 1/3/2/4;
+    background-color: gold;
+}
+
+.accumulation {
+    grid-area: 2/2/3/3;
+    background-color: aqua;
+}
+
+.photo {
+    grid-area: 1/2/2/3;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,8 @@
+.header {
+    background-color: darkred;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 200px;
+    line-height: 200px;
+}
