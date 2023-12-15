@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import 'src/App.css';
 import {Routes, Route} from "react-router-dom";
-import {Header} from "./components/Header/Header";
-import {Body} from "./components/Body/Body";
-import {Accumulation} from "./components/Accumulation/Accumulation";
-import {ExpensesContainer} from "./components/Expenses/ExpensesContainer";
-import {SalaryContainer} from "./components/Salary/SalaryContainer";
+import {Header} from "src/components/Header/Header";
+import {Body} from "src/components/Body/Body";
+import {Accumulation} from "src/components/Accumulation/Accumulation";
+import {ExpensesContainer} from "src/components/Expenses/ExpensesContainer";
+import {SalaryContainer} from "src/components/Salary/SalaryContainer";
 
 function App() {
     return (

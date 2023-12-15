@@ -1,6 +1,6 @@
 import React from "react";
-import style from './Salary.module.css'
-import {MapDispatchToPropsType, MapStateToPropsType} from "./SalaryContainer";
+import style from 'src/components/Salary/Salary.module.css'
+import {MapDispatchToPropsType, MapStateToPropsType} from "src/components/Salary/SalaryContainer";
 
 export const Salary = (props: MapStateToPropsType & MapDispatchToPropsType) => {
     return (

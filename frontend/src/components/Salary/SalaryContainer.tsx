@@ -1,7 +1,7 @@
 import {connect} from "react-redux";
-import {Salary} from "./Salary";
-import {AppStateType} from "../../Redux/redux-store";
-import {addZpAC, InitialStateType} from "../../Redux/salary-reducer";
+import {Salary} from "src/components/Salary/Salary";
+import {AppStateType} from "src/Redux/redux-store";
+import {addZpAC, InitialStateType} from "src/Redux/salary-reducer";
 import {Dispatch} from "redux";
 
 

@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useState} from "react";
-import style from './Expenses.module.css'
-import {MapDispatchToPropsType, MapStateToPropsType} from "./ExpensesContainer";
+import style from 'src/components/Expenses/Expenses.module.css'
+import {MapDispatchToPropsType, MapStateToPropsType} from "src/components/Expenses/ExpensesContainer";
 import {v1} from "uuid";
 
 

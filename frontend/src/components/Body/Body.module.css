@@ -10,6 +10,8 @@
 .expenses {
     grid-area: 1/1/2/2;
     background-color: darkviolet;
+    height: 250px;
+
 
 }
 
@@ -25,6 +27,9 @@
 
 .photo {
     grid-area: 1/2/2/3;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfX3Yv3C_XPgw3TBiIEAs0dw4kYvGV3RPJ7Q&usqp=CAU");
+    background-size: cover;
+    background-position: center;
 }
 
 .item a {

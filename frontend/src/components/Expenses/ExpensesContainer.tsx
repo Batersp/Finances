@@ -1,7 +1,7 @@
 import {connect} from "react-redux";
-import {Expenses} from "./Expenses";
-import {addProductAC, ProductType, removeProductAC} from "../../Redux/expenses-reducer";
-import {AppStateType} from "../../Redux/redux-store";
+import {Expenses} from "src/components/Expenses/Expenses";
+import {addProductAC, ProductType, removeProductAC} from "src/Redux/expenses-reducer";
+import {AppStateType} from "src/Redux/redux-store";
 import {Dispatch} from "redux";
 
 export type MapStateToPropsType = {

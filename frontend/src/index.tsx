@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'src/index.css';
+import App from 'src/App';
+import reportWebVitals from 'src/reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
-import {store} from "./Redux/redux-store";
+import {store} from "src/Redux/redux-store";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
